@@ -1,0 +1,142 @@
+body {
+    background: #E5E5E5;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+}
+
+.texto-ingresado {
+    position: absolute;
+    width: 577px;
+    height: 48px;
+    left: 220px;
+    top: 150px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+    font-weight: bold;
+    background-color: #E5E5E5;
+    border: #E5E5E5;
+    outline: none;
+}
+
+.texto-ingresado :active {
+    border: #E5E5E5;
+}
+
+.texto-ingresado::placeholder {
+    color: #0A3871;
+}
+
+.aclaracion {
+    color: #0A3871;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    position: absolute;
+    width: 252px;
+    height: 18px;
+    left: 250px;
+    top: 530px;
+}
+
+.img-aclaracion {
+    position: absolute;
+    left: 225px;
+    top: 528px;
+}
+
+.boton-encriptar {
+    /* Auto layout */
+    display: inline-block;
+    padding: 24px;
+    position: relative;
+    width: 328px;
+    height: 67px;
+    left: 200px;
+    top: 550px;
+    color: #FFFFFF;
+    /* Dark blue/dark-blue-300 */
+    background: #0A3871;
+    border-radius: 24px;
+    /* Inside auto layout */
+    margin: 0px 24px;
+}
+
+.boton-desencriptar {
+    display: inline-block;
+    padding: 24px;
+    position: relative;
+    width: 328px;
+    height: 67px;
+    left: 175px;
+    top: 550px;
+    color: #0A3871;
+    /* Light gray */
+    background: #D8DFE8;
+    /* Dark blue/dark-blue-300 */
+    border: 1px solid #0A3871;
+    box-sizing: border-box;
+    border-radius: 24px;
+    margin: 0px 24px;
+}
+
+.rectangulo {
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    left: 920px;
+    top: 40px;
+    /* White */
+    background: #FFFFFF;
+    /* shadow */
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+.img-muneco {
+    position: absolute;
+    width: 336px;
+    height: 304px;
+    left: 50px;
+    top: 150px;
+}
+
+.texto-encriptado {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #0A3871;
+    border: none;
+    outline: none;
+}
+
+.boton-copiar {
+    position: absolute;
+    width: 328px;
+    height: 67px;
+    left: 32px;
+    top: 510px;
+    color: #0A3871;
+    /* Light gray */
+    background: #D8DFE8;
+    /* Dark blue/dark-blue-300 */
+    border: 1px solid #0A3871;
+    box-sizing: border-box;
+    border-radius: 24px;
+}
